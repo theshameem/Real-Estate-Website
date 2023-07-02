@@ -55,12 +55,14 @@ a {
   align-items: center;
   flex-direction: column;
 }
+
 .flexColStart {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
+
 .flexColEnd {
   display: flex;
   flex-direction: column;
@@ -78,10 +80,26 @@ a {
   color: rgb(140 139 139);
   font-size: 0.9rem;
 }
+
 .orangeText {
   color: orange;
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+.button {
+  font-weight: 500;
+  padding: 0.6rem 1.4rem;
+  color: white;
+  background: var(--blue-gradient);
+  border: none;
+  border-radius: 4px;
+  transition: all 300ms ease-in;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 /* media queries */
